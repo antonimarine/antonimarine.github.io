@@ -1,0 +1,56 @@
+---
+title: "okey"
+author: "Martinez Aguilar Marco Antonio"
+date: "4/12/2020"
+output: html_document
+---
+
+# mi top 3 de artistas en 2019
+```{r}
+top2019<-c("jose jose","bad bunny","myke towers")
+top2019
+```
+
+# Mi antitop 3 de artistas de 2019
+
+```{r}
+antitop2019<-c("Luis miguel", "grupo marrano", "juan gabriel")
+antitop2019
+```
+
+# mi matriz 2019
+```{r}
+mimatriz2019<-cbind(top2019,antitop2019)
+mimatriz2019
+```
+
+
+
+
+# mi top 3 de artistas en 2020
+```{r}
+top2020<-c("Bad Bunny", "Myke Towers", "Jose Jose")
+top2020
+```
+
+
+# Mi antitop 3 de artistas de 2020
+
+```{r}
+antitop2020<-c("Luis miguel", "grupo marrano", "juan gabriel")
+antitop2020
+```
+
+# mi matriz 2020
+```{r}
+mimatriz2020<-cbind(top2020, antitop2020)
+mimatriz2020
+```
+
+```{r}
+arreglo<-array(c(mimatriz2019,mimatriz2020),dim = c(3,2,2))
+arreglo
+```
+
+
+
